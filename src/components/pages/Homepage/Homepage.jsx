@@ -1,8 +1,13 @@
+// import Button from "../../Button/Button";
+import PageNav from "../../PagNav/PageNav";
+// import Sidebar from "../../Sidebar/Sidebar";
 import styles from "./Homepage.module.css";
 
 export default function Homepage() {
   return (
     <main className={styles.homepage}>
+      <PageNav />
+      {/* <Sidebar /> */}
       <section>
         <h1>
           You travel the world.
@@ -15,6 +20,7 @@ export default function Homepage() {
           you have wandered the world.
         </h2>
       </section>
+      {/* <Button /> */}
     </main>
   );
 }
