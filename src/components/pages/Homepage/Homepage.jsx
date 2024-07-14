@@ -1,4 +1,5 @@
-// import Button from "../../Button/Button";
+import { Link } from "react-router-dom";
+
 import PageNav from "../../PagNav/PageNav";
 // import Sidebar from "../../Sidebar/Sidebar";
 import styles from "./Homepage.module.css";
@@ -19,8 +20,10 @@ export default function Homepage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
+        <Link to="/login" className="cta">
+          Start tracking now
+        </Link>
       </section>
-      {/* <Button /> */}
     </main>
   );
 }

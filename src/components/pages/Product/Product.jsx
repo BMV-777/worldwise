@@ -1,9 +1,9 @@
 import PageNav from "../../PagNav/PageNav";
-import styles from "./Product.module.css";
+// import styles from "./Product.module.css";
 
 function Product() {
   return (
-    <div className={styles.product}>
+    <div>
       <PageNav />
 
       <h1>Product</h1>
