@@ -1,5 +1,5 @@
 import styles from "./Button.module.css";
-// eslint-disable-next-line react/prop-types
+
 function Button({ children, onClick, type }) {
   return (
     <button onClick={onClick} className={`${styles.btn} ${styles[type]}`}>
@@ -10,13 +10,4 @@ function Button({ children, onClick, type }) {
 
 export default Button;
 
-// Satart Tracking Now
-
-// function Button({ children, onClick, type }) {
-//   return (
-//     <button onClick={onClick} className={`${styles.btn} ${styles[type]}`}>
-//       {children}
-//     </button>
-//   );
-// }
-// eslint-disable-next-line react/prop-types
+Button.propTypes = [];
